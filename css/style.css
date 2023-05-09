@@ -1,0 +1,257 @@
+@charset "utf-8";
+
+/* --------------- element -------------- */
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0; 
+    padding: 0;
+    color: #333;
+    font-size: 100%;
+    line-height: 1.8;
+    letter-spacing: 0.025em;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    background: #fff;
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, Verdana, 'ＭＳ Ｐゴシック', 'MS PGothic',sans-serif;
+    -webkit-text-size-adjust: 100%;
+    animation: opacity 0.7s both;
+}
+
+@keyframes opacity { 
+    0%{opacity: 0}
+    100%{opacity: 1}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+th,
+td {
+    margin: 0;
+    padding: 0.5em 1em;
+    font-size: 95%;
+}
+
+dl,
+dt,
+dd {
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+i, cite, em, var, address, dfn {
+    font-style: normal;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+table {
+    margin: 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color:transparent;
+    transition: opacity 0.3s,
+        color 0.3s,
+        border 0.3s,
+        background 0.3s;
+}
+
+a img {
+    border: none;
+    transition: opacity 0.3s;
+}
+
+
+a:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+
+/* --------------- layout -------------- */
+
+
+.base_wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1240px) {
+    .base_wrap {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+.title {
+    margin: 0 0 1em;
+    color: coral;
+}
+
+
+.space {
+    margin: 0 0 2rem;
+    height: 100vh;
+    color: #fff;
+    background: #999;
+}
+
+.copy {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+/* --------------- main -------------- */
+
+
+.box {
+    margin: 0 0 5em;
+    height: 50vh;
+    border: solid 1px #aaa;
+}
+
+.bg0 {
+    background: black;
+}
+.bg1 {
+    background: url('../images/cheb.png');
+}
+
+.bg2 {
+    background: url(../images/cheb.png) repeat-x;
+}
+
+.bg3 {
+    background: url(../images/cheb.png) repeat-y;
+}
+
+.bg4 {
+    background: url(../images/cheb.png) no-repeat;
+}
+
+.bg5 {
+    background: url(../images/cheb.png) no-repeat left bottom;
+}
+
+.bg6 {
+    background: url(../images/cheb.png) no-repeat right top;
+}
+
+.bg7 {
+    background: url(../images/cheb.png) no-repeat right bottom;
+}
+
+.bg8 {
+    background: url(../images/cheb.png) no-repeat center top;
+}
+
+.bg9 {
+    background: url(../images/cheb.png) no-repeat center bottom;
+}
+
+.bg10 {
+    background: url(../images/cheb.png) no-repeat left center;
+}
+
+.bg11 {
+    background: url(../images/cheb.png) no-repeat right center;
+}
+
+.bg12 {
+    background: url(../images/cheb.png) no-repeat center center;
+}
+
+.bg13 {
+    background: url(../images/cheb.png) no-repeat 20px 50px;
+}
+
+.bg14 {
+    background: url(../images/cheb.png) no-repeat 50px 50px #f89174;
+}
+
+.bg15 {
+    background: url(../images/cheb.png) no-repeat center  #F89174;
+}
+
+.bg16 {
+    background: url(../images/view1.jpg);
+}
+
+.bg17 {
+    background: url(../images/view1.jpg) left top/cover;
+}
+
+.bg18 {
+    background: url(../images/view1.jpg) center/cover;
+}
+
+.bg19 {
+    background: url(../images/view1.jpg) center center/cover;
+}
+
+.bg20 {
+    background: url(../images/view1.jpg) no-repeat right bottom;
+    background-size: 50% auto;
+}
+
+.bg21 {
+    background: url(../images/view1.jpg) no-repeat left;
+    background-size: auto 100%;
+}
+
+.bg22 {
+    background: url(../images/view1.jpg) no-repeat center center;
+    background-size: 250px auto;
+}
+
+.bg23 {
+    background: url(../images/view1.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.bg24 {
+    background: url(../images/view1.jpg) no-repeat center bottom/cover fixed;
+
+}
+
+.bg100 {
+    background: url(../images/animal-1299486.svg) center center, linear-gradient(#c9ffbf, #ffafbd);
+    background-blend-mode: luminosity;
+
+}
