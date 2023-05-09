@@ -226,23 +226,23 @@ a:focus {
 }
 
 .bg20 {
-    background: url(../images/view1.jpg) no-repeat right bottom;
-    background-size: 50% auto;
+    background: url(../images/view1.jpg) no-repeat right bottom/50% auto;
+
 }
 
 .bg21 {
-    background: url(../images/view1.jpg) no-repeat left;
-    background-size: auto 100%;
+    background: url(../images/view1.jpg) no-repeat left/auto 100%;
+
 }
 
 .bg22 {
-    background: url(../images/view1.jpg) no-repeat center center;
-    background-size: 250px auto;
+    background: url(../images/view1.jpg) no-repeat center center/250px auto;
+
 }
 
 .bg23 {
-    background: url(../images/view1.jpg) no-repeat center center;
-    background-size: 100% 100%;
+    background: url(../images/view1.jpg) no-repeat center center/100% 100%;
+
 }
 
 .bg24 {
