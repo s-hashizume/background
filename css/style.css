@@ -256,6 +256,6 @@ a:focus {
 }
 
 .bg101 {
-    background: url(../images/animal-1299486.svg) center center, linear-gradient(#c9ffbf, #ffafbd);
+    background: url(../images/marguerite-729510_1920.jpg) center center, linear-gradient(#c9ffbf, #ffafbd);
     /*---background-blend-modeを使用して白い花の画像に背景の#0bdをブレンドしてプロパティとしてdarkenとすることでとすることで重なった色の中で最も暗い色を採用している---*/
 }
